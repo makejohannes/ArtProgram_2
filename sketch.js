@@ -37,7 +37,7 @@ function setup() {
   BGButton.position(100, 220);
   BGButton.size(100, 100);
   BGButton.mousePressed(ChangeBG);
-  slider = createSlider(5, 100, 50);
+  slider = createSlider(0, 100, 50);
   slider.position(100, 570);
   sliderColor = createSlider(50, 255, 255, 0);
   sliderColor.position(100, 670);
